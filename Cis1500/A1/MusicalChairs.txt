@@ -1,0 +1,17 @@
+MUSICAL CHAIRS ALGORITHM
+
+Let N be the number of players playing the game
+
+Start of the loop
+	
+	Arrange (N-1) chairs in a circle facing away from each other
+	Play music while the players circle the chairs
+	After a random amount of time, stop the music
+	The player that does not have a chair to sit in is out of the game
+	N is now equal to (N-1)
+
+If (N > 1) then return to the start of the loop
+
+Else the player that is still in the game is the winner.
+
+End of Game

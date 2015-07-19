@@ -1,0 +1,39 @@
+************************************************************************************************************************
+Cameron Thompson 		0839150
+CIS1500 				A1
+September 18h, 2013
+************************************************************************************************************************
+
+***Compilation***
+Open the LXTerminal
+Use the change directory command "cd" until you are in folder where the a1.c file is held
+type in "gcc a1.c -o BMI"
+Now the code in a1.c has been compiled into a file named BMI
+To run the program type in "./BMI"
+
+***Purpose***
+
+The purpose of this program is to calculate BMI based on height and weight.
+
+***How to Use the Program "a1"***
+
+When you run the program it will ask for you to input your height.
+Type in a NUMBER that is your height in inches.
+
+Next the program will ask for your weight.
+Type in a NUMBER that is your weight in pounds.
+
+The program will take these two values and calculate your BMI.
+
+The program will then print out on the screen: The height you gave it, the weight you gave it, and the calculated BMI.
+
+***Limitations of the Program***
+The program will not work as intended based on certain input. 
+
+The program will "break" if the input falls into one of the following categories:
+
+	The input is not numeric
+
+	The input is outside the range of numbers that a "float" can hold
+
+**********************************************************************************************************************

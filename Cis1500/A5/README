@@ -1,0 +1,117 @@
+************************************************************************************************************************
+Cameron Thompson 		0839150
+CIS1500 			A5
+Nov 24th, 2013
+************************************************************************************************************************
+
+***Compilation***
+Open the LXTerminal
+Use the change directory command "cd" until you are in folder where the a5.c file is held
+type in "gcc -ansi -Wall a5.c -o Lottery"
+Now the code in a5.c has been compiled into a file named Lottery.
+To run the program type in "./Lottery"
+
+*****Running the program(s)******
+
+First the program will ask you for your name. You may enter anything at this point.
+Next the program will ask how much money is able to be won, you must enter a number (decimal is optional).
+The program will then present a menu. You have 4 options: enter the winning ticket, enter your ticket, 
+check to see if your ticket has won anything, or quit.
+If you choose to enter the winning ticket or your ticket, you will be asked to enter 6 numbers one at a time.
+These must be numbers between 01 and 49. Numbers below ten must be in the form of 01, 02, etc.
+After entering a winning ticket and your ticket, you will be able to check if your ticket has won anything.
+The program will compare your ticket to the winning ticket looking for matches and will tell 
+you how much money you have won.
+if you choose to quit, the program will end.
+
+***Known Limitations***
+
+You are only able to quit from the main menu.
+
+The program will not handle input for the menu that is longer than 101 characters. 
+
+****Testing******
+
+Here I will show the testing and results I got with each point where the program takes the user's input.
+This is in order to make sure my userProofing is effective in covering every kind of input.
+
+I am skipping the input for their name since the user may input anything.
+
+When the program asks for the amount of money availible to be won.
+----------------------------------------------------------------
+
+       INPUT                            RESULT
+4				Accepts the input and the program continues on to the next part.
+h				"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+%				"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+4y				"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+4[space]			"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+[space]4			"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+4.0				Accepts the input and the program continues on to the next part.
+4.				Accepts the input and the program continues on to the next part.
+.0				Accepts the input and the program continues on to the next part.
+.				Accepts the input and the program continues on to the next part.
+4..				"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+4..4				"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+4_3				"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+-1				"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+dkljgfhdg4			"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+[enter]				"Please only input numbers. No spaces, letters, or symbols. Please enter the amount of money availible to be won."
+
+
+When the programs asks for input on the menu.
+---------------------------------------------
+
+	INPUT				RESULT
+4				"Please only enter (w), (t), (c), or (q) for menu input."
+h				"Please only enter (w), (t), (c), or (q) for menu input."
+%				"Please only enter (w), (t), (c), or (q) for menu input."
+4y				"Please only enter (w), (t), (c), or (q) for menu input."
+4[space]			"Please only enter (w), (t), (c), or (q) for menu input."
+[space]4			"Please only enter (w), (t), (c), or (q) for menu input."
+4.0				"Please only enter (w), (t), (c), or (q) for menu input."
+4.				"Please only enter (w), (t), (c), or (q) for menu input."
+.0				"Please only enter (w), (t), (c), or (q) for menu input."
+.				"Please only enter (w), (t), (c), or (q) for menu input."
+4..				"Please only enter (w), (t), (c), or (q) for menu input."
+4..4				"Please only enter (w), (t), (c), or (q) for menu input."
+4_3				"Please only enter (w), (t), (c), or (q) for menu input."
+-1				"Please only enter (w), (t), (c), or (q) for menu input."
+dkljgfhdg4			"Please only enter (w), (t), (c), or (q) for menu input."
+[enter]				"Please only enter (w), (t), (c), or (q) for menu input."
+w				Accepts the input and activates the corresponding part of the menu.
+w[space]			Accepts the input and activates the corresponding part of the menu.
+t				Accepts the input and activates the corresponding part of the menu.
+t[space]			Accepts the input and activates the corresponding part of the menu.
+c				Accepts the input and activates the corresponding part of the menu.
+c[space]			Accepts the input and activates the corresponding part of the menu.
+q				Accepts the input and activates the corresponding part of the menu.
+q[space]			Accepts the input and activates the corresponding part of the menu.
+*Note the fact that a proper menu command followed by a space is accepted is done so on purpose.
+
+
+When the program asks for any of the numbers for either of the tickets (they use the same function).
+----------------------------------------------------------------------------------------------------
+
+	INPUT				RESULT
+4				"You entered a number that was not two digits long. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+04				Accepts the input and the program continues on to ask for the next number (or return to the main menu).
+h				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+%				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+4y				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+4[space]			"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+[space]4			"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+4.0				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+4.				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+.0				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+.				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+4..				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+4..4				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+4_3				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+-1				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+dkljgfhdg4			"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+00				"You entered a number that is not between 01 and 49. Please enter a different number."
+50				"You entered a number that is not between 01 and 49. Please enter a different number."
+[enter]				"Please input numbers, and these numbers must be beween 01 and 49. For numbers less than 10 please enter in the form 01, 02, etc. Please entere the first winning number:"
+
+**********************************************************************************************************************************************************************************************************

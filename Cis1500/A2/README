@@ -1,0 +1,56 @@
+************************************************************************************************************************
+Cameron Thompson 		0839150
+CIS1500 				A2
+October 4th, 2013
+************************************************************************************************************************
+
+***Compilation***
+Open the LXTerminal
+Use the change directory command "cd" until you are in folder where the a2.c file is held
+type in "gcc -ansi -Wall a2.c -o Pound"
+Now the code in a2.c has been compiled into a file named Pound
+To run the program type in "./Pound"
+
+***Purpose***
+
+The purpose of this program is to calculate the cost of your dog staying at the pound.
+It does this based on the weight of the dog and the length of the stay.
+
+***How to Use the Program "a2"***
+
+When you run the program it will ask for you to input the owner's name.
+Type in the owner's name.
+
+The program will then ask for you to input the dog's name.
+Type in your dog's name.
+
+The program will then ask for you to input the dog's weight.
+Type in a NUMBER that is your dog's weight in pounds.
+
+The program will then ask for you to input how long the dog will be staying at the pound.
+Type in a NUMBER that is how long the dog will stay at the pound.
+
+The program will then print out on the screen:
+The owner's name.
+The dog's name.
+The dog's weight.
+The length of the stay.
+The cost per day of the dog's stay.
+The total cost to have the dog stay at the pound.
+
+***Limitations of the Program***
+The program will not work as intended based on certain input. 
+
+If the program is asking for a number (weight, stay length), the program will "break" 
+if the input falls into one of the following categories:
+
+	The input is not numeric
+
+	The input is outside the range of numbers that an "integer" can hold
+
+If the program is asking for the name of the dog or the owner, the program will "break" 
+if the input falls into one of the following categories:
+
+	The input, including spaces, is longer than 19 characters.
+
+**********************************************************************************************************************

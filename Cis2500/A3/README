@@ -1,0 +1,52 @@
+**************README*************************************************************************************************
+Cameron Thompson        0839150
+CIS2500                 A3
+March 10th, 2013
+************************************************************************************
+
+***Compilation****
+Open the LXTerminal
+Use the change directory command "cd" until you are in the A3 folder.
+type in make
+type ./bin/dungeonMaster
+
+****Instructions****
+Once you are in the dungeon you may use the following keys for movement:
+w for up
+a for left
+s for down
+d for right.
+typing q will quit the game after printing your inventory.
+
+You can't walk on/through walls or monsters.
+You can pick up items.
+Stairs are out of order.
+
+******Character Set******
+B is a bat/monster.
+% is stairs.
+* is gold.
+! is a potion.
+) is a weapon.
+- is a wall.
+| is also a wall.
++ is a door.
+. Is an empty floor tile.
+
+******Other Information******
+Items picked up will be added to the inventory. Inventory is shown when you quit.
+If you try to move into the void you will not be able to.
+
+******Limitations****************
+If you have the window small enough compared to the width of the dungeon,
+then the inventory will overwrite onto the dungeon map and break the game.
+SOLUTION: run the game again but this time inside a bigger window.
+
+If the dungeon that is drawn extends past the edge of the screen then when you 
+maximize the window the dungeon will stay cut off on the bottom/side of the screen.
+SOLUTION: Rerun the program in a larger window.
+
+Since the seeding of the function rand only occurs once per second, and the program
+operates at much faster speeds, this usually leads to a lack of randomized. This tends
+to have multiple monsters of the same type and multiple monsters moving in the same 
+direction.

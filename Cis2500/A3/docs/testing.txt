@@ -1,0 +1,24 @@
+**************Testing*************************************************************************************************
+Cameron Thompson 		0839150
+CIS2500 				A3
+March 10th, 2013
+************************************************************************************
+
+-----Movement------
+Can't move on/through walls.		Check
+Can't move on/through monsters.		Check
+Can pick up items.			Check
+Replaces item with (.).			Check
+Can walk on stairs			Check
+Stairs aren't erased.			Check
+Cannot move into void.			Check
+
+-------Files------
+
+Will exit if not given file name	Check
+Will exit if file is empty 		Check
+
+----User Input-----
+only move on wasd			Check
+Quit on q press				Check
+ignore Other Input			Check

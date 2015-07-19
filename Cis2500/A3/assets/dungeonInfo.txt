@@ -1,0 +1,6 @@
+10X16 de3 dw8 ds11 g8,7 m3,4 h6,5 p2,2 s5,5 w2,12
+5X5 dn3 g1,1 m3,3 p2,2
+6X9 de3 dw4 ds6 m3,4 p2,2
+14X11 de3 dw9 ds8 g8,7 m3,4 p12,10
+10X16 de3 dw5 ds8 g8,7 m3,4 p2,2
+6X9 de2 dw4 ds2 g5,5 m3,4 p2,2

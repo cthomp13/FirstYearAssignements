@@ -1,0 +1,25 @@
+**************README*************************************************************************************************
+Cameron Thompson        0839150
+CIS2500                 A4
+March 27th, 2013
+************************************************************************************
+
+***Compilation****
+Open the LXTerminal
+Use the change directory command "cd" until you are in the A4 folder.
+type in "make music"
+type "./bin/music " followed by the filename of your test document.
+
+****Description****
+The program will take the list of songs and their properties and save the data.
+It will then print out the following:
+The length of all the songs combined.
+The average size of file for each song.
+It will then print out each song and its properties in the following format:
+	Song name (Artist):Song length in seconds[file size]
+
+***Other Info*****
+Note that there is very little error checking in this program. If you wish for
+the program to run as intended then please make sure your input file is in the 
+correct format.
+Also the program will not run unless given an input file.

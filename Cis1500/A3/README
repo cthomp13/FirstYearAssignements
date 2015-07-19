@@ -1,0 +1,47 @@
+************************************************************************************************************************
+Cameron Thompson 		0839150
+CIS1500 				A3
+October 16th, 2013
+************************************************************************************************************************
+
+***Compilation***
+Open the LXTerminal
+Use the change directory command "cd" until you are in folder where the A3.c file is held
+type in "gcc -ansi -Wall A3.c -o HiLo"
+Now the code in A3.c has been compiled into a file named HiLo.
+To run the program type in "./HiLo"
+
+***Purpose***
+
+The purpose of this program is to play a high low game. The computer randomly selects a card,
+and the user then guesses if the next card will of higher or lower value.
+
+***How to Use the Program "A3"***
+
+When you start the program, it will display what the current card is.
+It will also ask you if the next card will be higher, lower, or if you wish to quit.
+
+You need to enter a "1", "2", or a "0" as input to the program. 
+If you type "1" or "2", the game will continue.
+
+The program will then tell you the value of the next selected card and whether you guessed correctly
+if the card would be higher or lower. (If the card is the same it tells you that and does not change the score)
+
+It then tells you what your current score is and also what the current card is. 
+
+The next line asks you whether the next card will be higher or lower, or if you wish to quit. 
+This is the beginning of the next round.
+
+The program will continue to repeat those steps until you type 0 and the game quits.
+It will then print out your final score and stop the program. 
+
+***Limitations of the Program***
+The program will not work as intended based on certain input. 
+
+If the input when ask for a 1, 2, or 0 is longer than 19 characters, the program will still work
+but will not look as intended.
+
+The program will not work as intended if when asked for input, the user enters a number outside the range of a float.
+
+**********************************************************************************************************************
+

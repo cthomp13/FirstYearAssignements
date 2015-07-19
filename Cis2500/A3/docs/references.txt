@@ -1,0 +1,15 @@
+**************References*************************************************************************************************
+Cameron Thompson 		0839150
+CIS2500 				A3
+March 10th, 2013
+************************************************************************************
+
+Used the rogue code to find the character set.
+Played rogue to learn how the game works.
+
+Posed questions to other members of the course about simple ideas.
+Forums used to answer some questions about assignment guidelines.
+
+Used stack overflow and other programming forums for simple syntax instruction.
+
+Also made use of the man pages of various functions.

@@ -1,0 +1,18 @@
+************************************************************************************************
+Cameron Thompson 		0839150
+CIS1500 			A2
+Feb 7th, 2014
+************************************************************************************************
+
+****Compilation*****
+Make sure you are in the src file folder of A2, then type "make" into the LXTerminal.
+
+*********Running the program*******
+The program will open. You will be asked if you want to choose to translae morse code to english 
+or english to morse code.
+Once you have mad your selection you can enter either letters and numbers or "."'s and "-"'s.
+
+*You may quit at anytime by pressing 'q'.
+
+****Known Limitations******
+pressing ctrl + c will close the program at any time.

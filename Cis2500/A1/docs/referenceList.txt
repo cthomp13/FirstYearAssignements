@@ -1,0 +1,1 @@
+Only source used was the man pages of the various funcions.

@@ -1,0 +1,39 @@
+************************************************************************************************************************
+Cameron Thompson 		0839150
+CIS1500 				a4
+October Nov 6th, 2013
+************************************************************************************************************************
+
+***Compilation***
+Open the LXTerminal
+Use the change directory command "cd" until you are in folder where the a4.c file is held
+type in "gcc -ansi -Wall a4.c -o Flashcards"
+Now the code in a4.c has been compiled into a file named Flashcards.
+To run the program type in "./Flashcards"
+
+*****Running the program(s)******
+
+To begin wih you will be presented with a menu. If you wish to do addition flashcards type "a" then press enter.
+If you wish to do multiplication flashards type "m" then press enter. If you wish to quit type "q" then press enter.
+If you wish to view the high score list type "h" then press enter. 
+If you choose to do the addition or multiplication flashcards, first you will be asked how many rounds you wish to play.
+After that you will be presented with a question one at a time. It will ask for a response, if you give 
+the correct answer you will recieve a point. After the number of rounds you hose to play, it will tell you your total 
+score and you an return to the main menu by pressing any key and then enter. You may also quit at any time during
+the program by typing "q" and enter.
+
+***Known Limitations***
+
+You are not able to quit when you are asked how many rounds you wish to play.
+
+The program will not handle input for the menu that is longer than 102 characters. 
+
+***** Above and Beyond*****
+
+I have added the ability to record how long one set of rounds took the user, it will also tell the user this number in seconds.
+
+Using the amount of seconds,  then constructed a high score list. This was made on the basis of file reading and writing.
+By storing a few strings and integers I could modify and display the highscore list while using the program. More detail
+on how i did this is in the comments of the code.
+**********************************************************************************************************************
+

@@ -1,0 +1,17 @@
+        Hello and welcome to Dungeon Master!
+	 Brief instructions are as follows:
+character movement:
+move up:		w
+move left:		a
+move down:		s
+move left:		d
+
+Quit:			q
+
+
+You may explore the dungeon and collect items.
+Your inventory will be displayed upon death,
+you may alsosee it at any time by pressing i.
+
+
+Please press any key to continue into the game.
